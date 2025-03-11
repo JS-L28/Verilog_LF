@@ -1,2 +1,0 @@
-IPaddr.v,verilog,xil_defaultlib,../../../../LP_project.gen/sources_1/ip/IPaddr/sim/IPaddr.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
