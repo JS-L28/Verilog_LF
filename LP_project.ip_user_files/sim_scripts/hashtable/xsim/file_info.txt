@@ -1,0 +1,2 @@
+hashtable.v,verilog,xil_defaultlib,../../../../LP_project.gen/sources_1/ip/hashtable/sim/hashtable.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

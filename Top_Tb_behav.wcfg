@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Top_Tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Top_Tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="850.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,598.501 ns"></ZoomEndTime>
+      <Cursor1Time time="846.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="93" />
+   <wvobject fp_name="/Top_Tb/U1/Ck_10000" type="logic">
+      <obj_property name="ElementShortName">Ck_10000</obj_property>
+      <obj_property name="ObjectShortName">Ck_10000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BC" type="logic">
+      <obj_property name="ElementShortName">BC</obj_property>
+      <obj_property name="ObjectShortName">BC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BR" type="logic">
+      <obj_property name="ElementShortName">BR</obj_property>
+      <obj_property name="ObjectShortName">BR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SW0" type="logic">
+      <obj_property name="ElementShortName">SW0</obj_property>
+      <obj_property name="ObjectShortName">SW0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/No_of_hash_accesses" type="array">
+      <obj_property name="ElementShortName">No_of_hash_accesses[5:0]</obj_property>
+      <obj_property name="ObjectShortName">No_of_hash_accesses[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/No_of_BF_accesses" type="array">
+      <obj_property name="ElementShortName">No_of_BF_accesses[5:0]</obj_property>
+      <obj_property name="ObjectShortName">No_of_BF_accesses[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BMP" type="array">
+      <obj_property name="ElementShortName">BMP[14:0]</obj_property>
+      <obj_property name="ObjectShortName">BMP[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/IP_Addr" type="array">
+      <obj_property name="ElementShortName">IP_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IP_Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/TruePos" type="logic">
+      <obj_property name="ElementShortName">TruePos</obj_property>
+      <obj_property name="ObjectShortName">TruePos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CRC_code" type="array">
+      <obj_property name="ElementShortName">CRC_code[63:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_code[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/crcdone" type="logic">
+      <obj_property name="ElementShortName">crcdone</obj_property>
+      <obj_property name="ObjectShortName">crcdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/outState" type="array">
+      <obj_property name="ElementShortName">outState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">outState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/Length" type="array">
+      <obj_property name="ElementShortName">Length[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Length[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BTdone" type="logic">
+      <obj_property name="ElementShortName">BTdone</obj_property>
+      <obj_property name="ObjectShortName">BTdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/douta" type="array">
+      <obj_property name="ElementShortName">douta[5:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/alldone" type="logic">
+      <obj_property name="ElementShortName">alldone</obj_property>
+      <obj_property name="ObjectShortName">alldone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/addra" type="array">
+      <obj_property name="ElementShortName">addra[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/IPready" type="logic">
+      <obj_property name="ElementShortName">IPready</obj_property>
+      <obj_property name="ObjectShortName">IPready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BFQueryPos" type="logic">
+      <obj_property name="ElementShortName">BFQueryPos</obj_property>
+      <obj_property name="ObjectShortName">BFQueryPos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BFQueryNeg" type="logic">
+      <obj_property name="ElementShortName">BFQueryNeg</obj_property>
+      <obj_property name="ObjectShortName">BFQueryNeg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/IPgo" type="logic">
+      <obj_property name="ElementShortName">IPgo</obj_property>
+      <obj_property name="ObjectShortName">IPgo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/IP_on" type="logic">
+      <obj_property name="ElementShortName">IP_on</obj_property>
+      <obj_property name="ObjectShortName">IP_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/crc_on" type="logic">
+      <obj_property name="ElementShortName">crc_on</obj_property>
+      <obj_property name="ObjectShortName">crc_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/BFQuery" type="logic">
+      <obj_property name="ElementShortName">BFQuery</obj_property>
+      <obj_property name="ObjectShortName">BFQuery</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/hashAccess" type="logic">
+      <obj_property name="ElementShortName">hashAccess</obj_property>
+      <obj_property name="ObjectShortName">hashAccess</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/backTrack" type="logic">
+      <obj_property name="ElementShortName">backTrack</obj_property>
+      <obj_property name="ObjectShortName">backTrack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/crc_take" type="logic">
+      <obj_property name="ElementShortName">crc_take</obj_property>
+      <obj_property name="ObjectShortName">crc_take</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/first" type="logic">
+      <obj_property name="ElementShortName">first</obj_property>
+      <obj_property name="ObjectShortName">first</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/digit" type="array">
+      <obj_property name="ElementShortName">digit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/hashAccess" type="logic">
+      <obj_property name="ElementShortName">hashAccess</obj_property>
+      <obj_property name="ObjectShortName">hashAccess</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/IPAddr" type="array">
+      <obj_property name="ElementShortName">IPAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IPAddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/CRC_code" type="array">
+      <obj_property name="ElementShortName">CRC_code[63:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_code[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Length" type="array">
+      <obj_property name="ElementShortName">Length[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Length[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/addr" type="array">
+      <obj_property name="ElementShortName">addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/BMP" type="array">
+      <obj_property name="ElementShortName">BMP[14:0]</obj_property>
+      <obj_property name="ObjectShortName">BMP[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/No_of_hash_accesses" type="array">
+      <obj_property name="ElementShortName">No_of_hash_accesses[5:0]</obj_property>
+      <obj_property name="ObjectShortName">No_of_hash_accesses[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/FalsePos" type="logic">
+      <obj_property name="ElementShortName">FalsePos</obj_property>
+      <obj_property name="ObjectShortName">FalsePos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/TruePos" type="logic">
+      <obj_property name="ElementShortName">TruePos</obj_property>
+      <obj_property name="ObjectShortName">TruePos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Nomatch" type="logic">
+      <obj_property name="ElementShortName">Nomatch</obj_property>
+      <obj_property name="ObjectShortName">Nomatch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/doutaa" type="array">
+      <obj_property name="ElementShortName">doutaa[5:0]</obj_property>
+      <obj_property name="ObjectShortName">doutaa[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/alldone" type="logic">
+      <obj_property name="ElementShortName">alldone</obj_property>
+      <obj_property name="ObjectShortName">alldone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_h1_index" type="array">
+      <obj_property name="ElementShortName">Hash_h1_index[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_h1_index[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_h2_index" type="array">
+      <obj_property name="ElementShortName">Hash_h2_index[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_h2_index[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/accessflag" type="logic">
+      <obj_property name="ElementShortName">accessflag</obj_property>
+      <obj_property name="ObjectShortName">accessflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/read_complete_flag" type="logic">
+      <obj_property name="ElementShortName">read_complete_flag</obj_property>
+      <obj_property name="ObjectShortName">read_complete_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_prefix" type="array">
+      <obj_property name="ElementShortName">Hash_prefix[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_prefix[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_BMP" type="array">
+      <obj_property name="ElementShortName">Hash_BMP[14:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_BMP[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/cmpIPAddr" type="array">
+      <obj_property name="ElementShortName">cmpIPAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmpIPAddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/cmp_Prefix" type="array">
+      <obj_property name="ElementShortName">cmp_Prefix[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cmp_Prefix[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/h_valid" type="logic">
+      <obj_property name="ElementShortName">h_valid</obj_property>
+      <obj_property name="ObjectShortName">h_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_pre_len" type="array">
+      <obj_property name="ElementShortName">Hash_pre_len[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_pre_len[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/haddr" type="array">
+      <obj_property name="ElementShortName">haddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">haddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/hash_data" type="array">
+      <obj_property name="ElementShortName">hash_data[52:0]</obj_property>
+      <obj_property name="ObjectShortName">hash_data[52:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/Hash_row" type="array">
+      <obj_property name="ElementShortName">Hash_row[52:0]</obj_property>
+      <obj_property name="ObjectShortName">Hash_row[52:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/dina" type="array">
+      <obj_property name="ElementShortName">dina[52:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[52:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/weab" type="logic">
+      <obj_property name="ElementShortName">weab</obj_property>
+      <obj_property name="ObjectShortName">weab</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/hashAccessStart" type="logic">
+      <obj_property name="ElementShortName">hashAccessStart</obj_property>
+      <obj_property name="ObjectShortName">hashAccessStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/READ_H1" type="array">
+      <obj_property name="ElementShortName">READ_H1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_H1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/READ_H2" type="array">
+      <obj_property name="ElementShortName">READ_H2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_H2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/PROCESS" type="array">
+      <obj_property name="ElementShortName">PROCESS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PROCESS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/PROCESS2" type="array">
+      <obj_property name="ElementShortName">PROCESS2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PROCESS2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/FINAL" type="array">
+      <obj_property name="ElementShortName">FINAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FINAL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/SH/FINAL2" type="array">
+      <obj_property name="ElementShortName">FINAL2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FINAL2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/Start" type="logic">
+      <obj_property name="ElementShortName">Start</obj_property>
+      <obj_property name="ObjectShortName">Start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/CRC_on" type="logic">
+      <obj_property name="ElementShortName">CRC_on</obj_property>
+      <obj_property name="ObjectShortName">CRC_on</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/backTrack" type="logic">
+      <obj_property name="ElementShortName">backTrack</obj_property>
+      <obj_property name="ObjectShortName">backTrack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/crc_take" type="logic">
+      <obj_property name="ElementShortName">crc_take</obj_property>
+      <obj_property name="ObjectShortName">crc_take</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/IP" type="array">
+      <obj_property name="ElementShortName">IP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/Length" type="array">
+      <obj_property name="ElementShortName">Length[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Length[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/Done" type="logic">
+      <obj_property name="ElementShortName">Done</obj_property>
+      <obj_property name="ObjectShortName">Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/CRC_code" type="array">
+      <obj_property name="ElementShortName">CRC_code[63:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_code[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/count" type="array">
+      <obj_property name="ElementShortName">count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/CRC_reg" type="array">
+      <obj_property name="ElementShortName">CRC_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC_reg[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/CRC" type="array">
+      <obj_property name="ElementShortName">CRC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">CRC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/index" type="array">
+      <obj_property name="ElementShortName">index[5:0]</obj_property>
+      <obj_property name="ObjectShortName">index[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/addra" type="array">
+      <obj_property name="ElementShortName">addra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_Tb/U1/CR1/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+</wave_config>

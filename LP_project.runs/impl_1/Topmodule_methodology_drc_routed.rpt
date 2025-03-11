@@ -1,0 +1,458 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Mon Mar 10 19:32:16 2025
+| Host         : NAA_JS running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Topmodule_methodology_drc_routed.rpt -pb Topmodule_methodology_drc_routed.pb -rpx Topmodule_methodology_drc_routed.rpx
+| Design       : Topmodule
+| Device       : xc7a100ticsg324-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 83
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert   | 1          |
+| TIMING-18 | Warning  | Missing input or output delay  | 17         |
+| TIMING-20 | Warning  | Non-clocked latch              | 64         |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell CR1/CRC_reg[63]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) CR1/CRC_reg[54]/PRE, CR1/CRC_reg[55]/PRE, CR1/CRC_reg[56]/PRE,
+CR1/CRC_reg[57]/CLR, CR1/CRC_reg[58]/PRE, CR1/CRC_reg[59]/PRE,
+CR1/CRC_reg[5]/PRE, CR1/CRC_reg[60]/PRE, CR1/CRC_reg[61]/CLR,
+CR1/CRC_reg[62]/PRE, CR1/CRC_reg[63]/CLR, CR1/CRC_reg[6]/CLR,
+CR1/CRC_reg[7]/PRE, CR1/CRC_reg[8]/CLR, CR1/CRC_reg[9]/CLR
+ (the first 15 of 64 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on B relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on digit[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on digit[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on digit[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on digit[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on digit[4] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on digit[5] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on digit[6] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on digit[7] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on seg[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on seg[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on seg[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on seg[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on seg[4] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on seg[5] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on seg[6] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[0] cannot be properly analyzed as its control pin CR1/CRC_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[10] cannot be properly analyzed as its control pin CR1/CRC_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[11] cannot be properly analyzed as its control pin CR1/CRC_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[12] cannot be properly analyzed as its control pin CR1/CRC_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[13] cannot be properly analyzed as its control pin CR1/CRC_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[14] cannot be properly analyzed as its control pin CR1/CRC_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[15] cannot be properly analyzed as its control pin CR1/CRC_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[16] cannot be properly analyzed as its control pin CR1/CRC_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[17] cannot be properly analyzed as its control pin CR1/CRC_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[18] cannot be properly analyzed as its control pin CR1/CRC_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[19] cannot be properly analyzed as its control pin CR1/CRC_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[1] cannot be properly analyzed as its control pin CR1/CRC_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[20] cannot be properly analyzed as its control pin CR1/CRC_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[21] cannot be properly analyzed as its control pin CR1/CRC_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[22] cannot be properly analyzed as its control pin CR1/CRC_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[23] cannot be properly analyzed as its control pin CR1/CRC_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[24] cannot be properly analyzed as its control pin CR1/CRC_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[25] cannot be properly analyzed as its control pin CR1/CRC_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[26] cannot be properly analyzed as its control pin CR1/CRC_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[27] cannot be properly analyzed as its control pin CR1/CRC_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[28] cannot be properly analyzed as its control pin CR1/CRC_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[29] cannot be properly analyzed as its control pin CR1/CRC_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[2] cannot be properly analyzed as its control pin CR1/CRC_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[30] cannot be properly analyzed as its control pin CR1/CRC_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[31] cannot be properly analyzed as its control pin CR1/CRC_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[32] cannot be properly analyzed as its control pin CR1/CRC_reg[32]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[33] cannot be properly analyzed as its control pin CR1/CRC_reg[33]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[34] cannot be properly analyzed as its control pin CR1/CRC_reg[34]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[35] cannot be properly analyzed as its control pin CR1/CRC_reg[35]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[36] cannot be properly analyzed as its control pin CR1/CRC_reg[36]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[37] cannot be properly analyzed as its control pin CR1/CRC_reg[37]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[38] cannot be properly analyzed as its control pin CR1/CRC_reg[38]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[39] cannot be properly analyzed as its control pin CR1/CRC_reg[39]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[3] cannot be properly analyzed as its control pin CR1/CRC_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[40] cannot be properly analyzed as its control pin CR1/CRC_reg[40]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[41] cannot be properly analyzed as its control pin CR1/CRC_reg[41]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[42] cannot be properly analyzed as its control pin CR1/CRC_reg[42]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[43] cannot be properly analyzed as its control pin CR1/CRC_reg[43]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[44] cannot be properly analyzed as its control pin CR1/CRC_reg[44]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[45] cannot be properly analyzed as its control pin CR1/CRC_reg[45]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[46] cannot be properly analyzed as its control pin CR1/CRC_reg[46]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[47] cannot be properly analyzed as its control pin CR1/CRC_reg[47]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[48] cannot be properly analyzed as its control pin CR1/CRC_reg[48]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[49] cannot be properly analyzed as its control pin CR1/CRC_reg[49]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[4] cannot be properly analyzed as its control pin CR1/CRC_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[50] cannot be properly analyzed as its control pin CR1/CRC_reg[50]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[51] cannot be properly analyzed as its control pin CR1/CRC_reg[51]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[52] cannot be properly analyzed as its control pin CR1/CRC_reg[52]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[53] cannot be properly analyzed as its control pin CR1/CRC_reg[53]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[54] cannot be properly analyzed as its control pin CR1/CRC_reg[54]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[55] cannot be properly analyzed as its control pin CR1/CRC_reg[55]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[56] cannot be properly analyzed as its control pin CR1/CRC_reg[56]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[57] cannot be properly analyzed as its control pin CR1/CRC_reg[57]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[58] cannot be properly analyzed as its control pin CR1/CRC_reg[58]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[59] cannot be properly analyzed as its control pin CR1/CRC_reg[59]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[5] cannot be properly analyzed as its control pin CR1/CRC_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[60] cannot be properly analyzed as its control pin CR1/CRC_reg[60]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[61] cannot be properly analyzed as its control pin CR1/CRC_reg[61]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[62] cannot be properly analyzed as its control pin CR1/CRC_reg[62]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[63] cannot be properly analyzed as its control pin CR1/CRC_reg[63]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[6] cannot be properly analyzed as its control pin CR1/CRC_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[7] cannot be properly analyzed as its control pin CR1/CRC_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[8] cannot be properly analyzed as its control pin CR1/CRC_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch CR1/CRC_reg[9] cannot be properly analyzed as its control pin CR1/CRC_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 64 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

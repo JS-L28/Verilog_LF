@@ -1,0 +1,423 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Mar 10 14:20:05 2025
+# Process ID: 33168
+# Current directory: C:/Users/opq20/LP_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19792 C:\Users\opq20\LP_project\LP_project.xpr
+# Log file: C:/Users/opq20/LP_project/vivado.log
+# Journal file: C:/Users/opq20/LP_project\vivado.jou
+# Running On: NAA_JS, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 16, Host memory: 34060 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/opq20/LP_project/LP_project.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1523.965 ; gain = 373.773
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Mar 10 14:21:02 2025] Launched synth_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Mar 10 18:17:51 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1926.352 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6824 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Topmodule' is not ideal for floorplanning, since the cellview 'CRC' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.888 . Memory (MB): peak = 2670.191 ; gain = 14.152
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.888 . Memory (MB): peak = 2670.191 ; gain = 14.152
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2670.191 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2846.328 ; gain = 1281.559
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Mar 10 18:30:26 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Mar 10 18:39:24 2025] Launched synth_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Mar 10 18:40:42 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 3107.852 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6826 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.883 . Memory (MB): peak = 3107.852 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.883 . Memory (MB): peak = 3107.852 ; gain = 0.000
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Mar 10 19:05:17 2025] Launched synth_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Mar 10 19:06:39 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 3282.949 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6867 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.846 . Memory (MB): peak = 3282.949 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.846 . Memory (MB): peak = 3282.949 ; gain = 0.000
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Mar 10 19:12:57 2025] Launched synth_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Mar 10 19:14:12 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 3445.637 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6830 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.880 . Memory (MB): peak = 3445.637 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.880 . Memory (MB): peak = 3445.637 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3445.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Mon Mar 10 19:30:39 2025] Launched synth_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 12
+[Mon Mar 10 19:31:22 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 3762.465 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 3762.465 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 3762.465 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Mar 10 19:34:27 2025] Launched impl_1...
+Run output will be captured here: C:/Users/opq20/LP_project/LP_project.runs/impl_1/runme.log
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+open_hw_manager
+launch_simulation -mode post-implementation -type timing
+Command: launch_simulation  -mode post-implementation -type timing
+INFO: [Vivado 12-12493] Simulation top is 'Top_Tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Top_Tb_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Top_Tb_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Top_Tb_time_impl.v
+INFO: [SIM-utils-37] SDF generated:C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Top_Tb_time_impl.sdf
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_Tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/IPaddr.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/ipaddr.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/hashtable.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Hash.coe'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim'
+"xvlog --incr --relax -prj Top_Tb_vlog.prj"
+ECHO가 설정되어 있지 않습니다.
+ECHO가 설정되어 있지 않습니다.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/Top_Tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRC
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-311] analyzing module IPAddr
+INFO: [VRFC 10-311] analyzing module IPaddr
+INFO: [VRFC 10-311] analyzing module SearchHT
+INFO: [VRFC 10-311] analyzing module Topmodule
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-311] analyzing module bmpstore
+INFO: [VRFC 10-311] analyzing module hashtable
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_v8_4_6
+INFO: [VRFC 10-311] analyzing module IPaddr_blk_mem_gen_v8_4_6_synth
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_v8_4_6
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1_blk_mem_gen_v8_4_6_synth
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_v8_4_6
+INFO: [VRFC 10-311] analyzing module bmpstore_blk_mem_gen_v8_4_6_synth
+INFO: [VRFC 10-311] analyzing module hashtable_bindec
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_mux
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized14
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized79
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized80
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized81
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized82
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized83
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized84
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized85
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized86
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized87
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized88
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized89
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized90
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized91
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized92
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized93
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_width__parameterized94
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized14
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized79
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized80
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized81
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized82
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized83
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized84
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized85
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized86
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized87
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized88
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized89
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized90
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized91
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized92
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized93
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_prim_wrapper_init__parameterized94
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_v8_4_6
+INFO: [VRFC 10-311] analyzing module hashtable_blk_mem_gen_v8_4_6_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/opq20/LP_project/LP_project.srcs/sim_1/new/Top_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Tb
+ERROR: [VRFC 10-3805] use of undefined macro 'BMP_LEN' [C:/Users/opq20/LP_project/LP_project.srcs/sim_1/new/Top_Tb.v:17]
+ERROR: [VRFC 10-3805] use of undefined macro 'NodeSize' [C:/Users/opq20/LP_project/LP_project.srcs/sim_1/new/Top_Tb.v:18]
+ERROR: [VRFC 10-3805] use of undefined macro 'PrefixLength' [C:/Users/opq20/LP_project/LP_project.srcs/sim_1/new/Top_Tb.v:20]
+ERROR: [VRFC 10-8530] module 'Top_Tb' is ignored due to previous errors [C:/Users/opq20/LP_project/LP_project.srcs/sim_1/new/Top_Tb.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/opq20/LP_project/LP_project.sim/sim_1/impl/timing/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3762.465 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+report_timing
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Mon Mar 10 19:47:17 2025
+| Host         : NAA_JS running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : Topmodule
+| Device       : 7a100ti-csg324
+| Speed File   : -1L  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             5.384ns  (required time - arrival time)
+  Source:                 SH/haddr_tristate_oe_reg[12]/C
+                            (rising edge-triggered cell FDCE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        4.220ns  (logic 1.125ns (26.656%)  route 3.095ns (73.344%))
+  Logic Levels:           2  (LUT4=2)
+  Clock Path Skew:        0.082ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.051ns = ( 15.051 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.228ns
+    Clock Pessimism Removal (CPR):    0.259ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    E3                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.482     1.482 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           2.025     3.506    clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.096     3.602 r  clk_IBUF_BUFG_inst/O
+                         net (fo=208, routed)         1.625     5.228    SH/CLK
+    SLICE_X62Y84         FDCE                                         r  SH/haddr_tristate_oe_reg[12]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X62Y84         FDCE (Prop_fdce_C_Q)         0.478     5.706 r  SH/haddr_tristate_oe_reg[12]/Q
+                         net (fo=17, routed)          1.760     7.466    SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0]
+    SLICE_X73Y73         LUT4 (Prop_lut4_I2_O)        0.321     7.787 r  SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1__8/O
+                         net (fo=2, routed)           0.452     8.239    SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/ena_array[0]
+    SLICE_X73Y73         LUT4 (Prop_lut4_I3_O)        0.326     8.565 r  SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_ENARDEN_cooolgate_en_gate_48/O
+                         net (fo=1, routed)           0.883     9.448    SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_ENARDEN_cooolgate_en_sig_40
+    RAMB36_X3Y13         RAMB36E1                                     r  SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    E3                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    E3                   IBUF (Prop_ibuf_I_O)         1.411    11.411 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.920    13.331    clk_IBUF
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    13.422 r  clk_IBUF_BUFG_inst/O
+                         net (fo=208, routed)         1.629    15.051    SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/clka
+    RAMB36_X3Y13         RAMB36E1                                     r  SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/CLKARDCLK
+                         clock pessimism              0.259    15.310    
+                         clock uncertainty           -0.035    15.275    
+    RAMB36_X3Y13         RAMB36E1 (Setup_ramb36e1_CLKARDCLK_ENARDEN)
+                                                     -0.443    14.832    SH/ht_mem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[87].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram
+  -------------------------------------------------------------------
+                         required time                         14.832    
+                         arrival time                          -9.448    
+  -------------------------------------------------------------------
+                         slack                                  5.384    
+
+
+
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 11 09:41:02 2025...

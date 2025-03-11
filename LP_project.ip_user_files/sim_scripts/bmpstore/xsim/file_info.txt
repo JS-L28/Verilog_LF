@@ -1,0 +1,2 @@
+bmpstore.v,verilog,xil_defaultlib,../../../../LP_project.gen/sources_1/ip/bmpstore/sim/bmpstore.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
