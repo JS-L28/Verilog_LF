@@ -57,35 +57,35 @@ To run the behavioral simulation of the IP lookup algorithm:
 
 2. Modify Topmodule.v as follows:
 
-Uncomment the following lines:
+* Uncomment the following lines:
 
-output [`NodeSize-1:0] No_of_hash_accesses, 
+  * output [`NodeSize-1:0] No_of_hash_accesses, 
 
-output [`NodeSize-1:0] No_of_BF_accesses, 
+  * output [`NodeSize-1:0] No_of_BF_accesses, 
 
-output [`BMP_LEN-1:0] BMP,
+  * output [`BMP_LEN-1:0] BMP,
 
-output wire [`PrefixLength-1:0] IP_Addr, 
+  * output wire [`PrefixLength-1:0] IP_Addr, 
 
-output TruePos
+  * output TruePos
 
-Comment out the following FPGA display outputs:
+* Comment out the following FPGA display outputs:
 
-output [6:0] seg, 
+  * output [6:0] seg, 
 
-output [7:0] digit,
+  * output [7:0] digit,
 
-output R, G, B
+  * output R, G, B
 
-Uncomment these wire declarations:
+* Uncomment these wire declarations:
 
-wire [6:0] seg;
+  * wire [6:0] seg;
 
-wire [7:0] digit;
+  * wire [7:0] digit;
 
-Comment out the entire Clk_dur_mod Cd instantiation section
+* Comment out the entire Clk_dur_mod Cd instantiation section
 
-3. In Vivado, navigate to "Run Simulation" > "Run Behavioral Simulation"
+3. In Vivado, "Run Simulation" > "Run Behavioral Simulation"
 
 ### FPGA Implementation
 
