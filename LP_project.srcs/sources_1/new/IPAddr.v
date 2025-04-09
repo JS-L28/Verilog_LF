@@ -23,9 +23,6 @@ IPaddr IP (
   .douta(IP_Addr)  // output wire [31 : 0] douta
 );
 
-//The first search shouldn't increase the 'addra'. 
-//This code can't search on the very first IP addr input...... -> solved
-
 wire IPaddrup = (IP_on && !IP_on_last) ? 1:0;
 wire firstaddr = (addra == 0) ? 1:0;
 always @(posedge clk or negedge reset)
