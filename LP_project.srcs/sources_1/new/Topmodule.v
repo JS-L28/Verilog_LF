@@ -14,10 +14,10 @@ output [7:0] digit,
 output R, G, B
 //convert to decimal and show them on the 7 segments display
 );
-//wire [`NodeSize-1:0] No_of_hash_accesses;
-//wire [`NodeSize-1:0] No_of_BF_accesses;
-//wire [`BMP_LEN-1:0] BMP;
-//wire [`PrefixLength-1:0] IP_Addr;
+wire [`NodeSize-1:0] No_of_hash_accesses;
+wire [`NodeSize-1:0] No_of_BF_accesses;
+wire [`BMP_LEN-1:0] BMP;
+wire [`PrefixLength-1:0] IP_Addr;
 
 //wire [6:0] seg;
 //wire [7:0] digit;
@@ -30,9 +30,9 @@ wire BTdone;
 wire start;
 wire [`nodeLength-1:0] douta;
 wire alldone;
-wire Ck_10000;
-wire [11:0] addra; // bmp¸¦ ¾µ¶§ ¾²´Â°Å... input `No_of_Nodes - 1 [13:0]
-wire [12:0] addrb; // bmp length ²¨³»¿À´Â address [12:0]
+//wire Ck_10000;
+wire [11:0] addra; // bmpë¥¼ ì“¸ë•Œ ì“°ëŠ”ê±°... input `No_of_Nodes - 1 [13:0]
+wire [12:0] addrb; // bmp length êº¼ë‚´ì˜¤ëŠ” address [12:0]
 //wire [`nodeLength-1: 0] hashlen;
 //board -> change all clk to Ck_10000
 //wire display;
@@ -42,7 +42,7 @@ Clk_dur_mod Cd (
 );
 
 Controller C1 (
-    .clk(clk), .rst(reset), .IPready(IPready), .crcDone(crcdone), 
+    .clk(clk), .rst(reset), .IPready(IPready), .crcDone(crcdone), .out_valid(out_valid),
     .BFQueryPos(BFQueryPos), .BFQueryNeg(BFQueryNeg), .TruePos(TruePos), .FalsePos(FalsePos), .BTdone(BTdone), .Nomatch(Nomatch), .alldone(alldone), .IPgo(IPgo),
     .preState(outState), //output
     .IP_on(IP_on), .crc_on(crc_on), 
@@ -58,7 +58,7 @@ CRC CR1 (
 
 SearchBF SB (
     .Start(start), .clk(clk), .reset(reset), .BFQuery(BFQuery), .Length(Length), .CRC_code(CRC_code), 
-    .No_of_BF_accesses(No_of_BF_accesses), .BFQueryPos(BFQueryPos), .BFQueryNeg(BFQueryNeg) //output
+    .No_of_BF_accesses(No_of_BF_accesses), .BFQueryPos(BFQueryPos), .BFQueryNeg(BFQueryNeg), .out_valid(out_valid) //output
 );
 
 SearchHT SH (
