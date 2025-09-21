@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 `include "./headers.v"
 
-module Controller (input clk, rst, IPready, IPgo, crcDone, BFQueryPos, BFQueryNeg, TruePos, FalsePos, BTdone, Nomatch, alldone,
+module Controller (input clk, rst, IPready, IPgo, crcDone, BFQueryPos, BFQueryNeg, TruePos, FalsePos, BTdone, Nomatch, alldone,out_valid,
 output reg [2:0] preState,
 output reg IP_on, crc_on, BFQuery, hashAccess, backTrack, crc_take, start, first, done);
 
@@ -104,9 +104,13 @@ end
 //            else nextState = BF;
 //      end
 //      else nextState = BF;
-      //if (((count == 0)) & Nomatch) nextState = Initial;
-      if ((count == 0) & BFQueryPos) nextState = HT;
-      else if ((count == 0) & BFQueryNeg) nextState = BT;
+      if (Nomatch) nextState = Initial;
+      
+      else if ((out_valid) & BFQueryPos) nextState = HT;
+      else if ((out_valid) & BFQueryNeg) nextState = BT;      
+
+//      else if ((count == 0) & BFQueryPos) nextState = HT;
+//      else if ((count == 0) & BFQueryNeg) nextState = BT;
       else nextState = BF;
    end 
    
@@ -162,5 +166,3 @@ end
 
 
 endmodule
-
-
